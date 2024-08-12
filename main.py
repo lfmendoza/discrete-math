@@ -6,17 +6,15 @@ def display_menu():
     print("2. Operar conjuntos")
     print("3. Finalizar")
 
-def build_set():
-    while True:
-        user_input = input("Ingrese los elementos del conjunto (solo A-Z, 0-9): ").upper()
-        valid_characters = set("ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
-        if all(char in valid_characters for char in user_input):
-            custom_set = DMSet()
-            for char in user_input:
-                custom_set.add(char)
-            return custom_set
+def build_set(custom_set):
+    values = input("Ingrese los elementos del conjunto separados por espacio (A-Z, 0-9): ")
+    values_list = values.split()
+    
+    for value in values_list:
+        if len(value) == 1 and (value.isalnum()):
+            custom_set.add(value)
         else:
-            print("Entrada no válida. Por favor, ingrese solo caracteres A-Z y dígitos 0-9.")
+            print(f"Elemento '{value}' no es válido. Debe ser un solo carácter alfanumérico.")
 
 def operate_sets(set1, set2, universal_set):
     while True:
