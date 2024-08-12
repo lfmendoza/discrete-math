@@ -96,3 +96,27 @@ Menu:
 - **Diferencia Simétrica** de `{1, 2, 3}` y `{3, 4, 5}` resulta en `{1, 2, 4, 5}`.
 
 ### Capturas de Pantalla de la Ejecución del Programa
+
+#### Construyendo conjuntos
+
+![building sets](assets/img/building_sets.png)
+
+#### Unión
+
+![building sets](assets/img/union.png)
+
+### Intersección
+
+![building sets](assets/img/intersection.png)
+
+#### Complemento
+
+![building sets](assets/img/complement.png)
+
+#### Diferencia
+
+![building sets](assets/img/difference.png)
+
+#### Diferencia Simétrica
+
+![building sets](assets/img/simetric_difference.png)
