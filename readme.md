@@ -2,14 +2,14 @@
 
 ## Descripción general del proyecto
 
-Este proyecto implementa una estructura de datos de conjunto personalizada en Python, lo que permite a los usuarios realizar varias operaciones de conjunto, como unión, intersección, complemento, diferencia y diferencia simétrica. La implementación personalizada evita el uso del tipo "conjunto" integrado de Python y proporciona funcionalidades de conjunto básicas a través de una estructura de lista enlazada. El proyecto está diseñado con fines educativos para demostrar la aplicación de los principios de programación orientada a objetos (OOP) en Python.
+Este proyecto implementa una estructura de datos de `Set` adaptado a una implementación de `Abstract Data Type` en Python, lo que permite a los usuarios realizar varias operaciones de conjunto, como **unión**, **intersección**, **complemento**, **diferencia** y **diferencia simétrica**. La implementación evita el uso del tipo `Set` integrado de Python y proporciona funcionalidades de conjunto básicas a través de una estructura de lista enlazada. El proyecto está diseñado para cumplir con los principios de programación orientada a objetos y `Clean Code` en Python.
 
 ## Enfoque del problema
 
 ### Estructuras de datos utilizadas
 
-- **Nodo**: una clase que representa un solo elemento del conjunto. Cada nodo contiene un "valor" y un puntero ("next") al siguiente nodo.
-- **DMSet**: una clase que representa el conjunto personalizado. Esta clase incluye métodos para agregar, eliminar y verificar la presencia de elementos, así como para realizar operaciones de conjunto como unión, intersección y diferencia.
+- **Nodo**: una clase que representa un solo elemento del conjunto. Cada nodo contiene un `valor` y un puntero `("next")` al siguiente nodo.
+- **DMSet**: una clase que representa el conjunto personalizado. Esta clase incluye métodos para `agregar`, `eliminar` y `verificar` la presencia de elementos, así como para realizar operaciones de conjunto como unión, intersección y diferencia.
 
 ### Operaciones clave
 
@@ -21,7 +21,7 @@ Este proyecto implementa una estructura de datos de conjunto personalizada en Py
 
 ### Detalles de implementación
 
-- **Validación de entrada**: garantiza que solo se agreguen caracteres válidos (A-Z, 0-9) a los conjuntos.
+- **Validación de entrada**: garantiza que solo se agreguen caracteres válidos `(A-Z, 0-9)` a los conjuntos.
 - **Robustez**: el programa incluye controles para entradas no válidas y las maneja con elegancia con mensajes informativos.
 
 ## Instalación y requisitos previos
