@@ -29,8 +29,8 @@ def operate_sets(set1, set2, universal_set):
         choice = input("Elija una operación: ")
 
         if choice == '1':
-            print("Complemento de Set 1:", set1.complement(universal_set))
-            print("Complemento de Set 2:", set2.complement(universal_set))
+            print("Complemento del Conjuto 1:", set1.complement(universal_set))
+            print("Complemento del Conjuto 2:", set2.complement(universal_set))
             break
         elif choice == '2':
             print("Unión:", set1.union(set2))
@@ -39,7 +39,7 @@ def operate_sets(set1, set2, universal_set):
             print("Intersección:", set1.intersection(set2))
             break
         elif choice == '4':
-            print("Diferencia (Set 1 - Set 2):", set1.difference(set2))
+            print("Diferencia (Conjuto 1 - Conjuto 2):", set1.difference(set2))
             break
         elif choice == '5':
             print("Diferencia Simétrica:", set1.symmetric_difference(set2))
@@ -60,9 +60,9 @@ def main():
         choice = input("Seleccione una opción: ")
 
         if choice == '1':
-            print("Construir Set 1")
+            print("Construir Conjuto 1")
             set1 = build_set()
-            print("Construir Set 2")
+            print("Construir Conjuto 2")
             set2 = build_set()
         elif choice == '2':
             operate_sets(set1, set2, universal_set)
